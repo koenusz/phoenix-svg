@@ -6,7 +6,7 @@ defmodule PhoenixSVG.MixProject do
   def project do
     [
       app: :phoenix_svg,
-      version: "1.0.4",
+      version: "1.0.5",
       elixir: "~> 1.13",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
@@ -38,7 +38,7 @@ defmodule PhoenixSVG.MixProject do
     [
       {:ex_doc, "~> 0.27", only: :dev, runtime: false},
       {:makeup_eex, "~> 0.1", only: :dev},
-      {:phoenix_live_view, "~> 0.17"}
+      {:phoenix_live_view, "~> 1.0"}
     ]
   end
 
